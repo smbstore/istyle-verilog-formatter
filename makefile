@@ -52,7 +52,7 @@ PROJECT_TYPE=executable
 # PROJECT_MAIN - filename within your source directory that contains main()
 PROJECT_MAIN=astyle_main.cpp
 # TARGET - the name you want your target to have (bin/release/[whatgoeshere])
-TARGET=iStyle
+TARGET=iStyle.exe
 # TEST_TARGET - the name you want your tests to have (probably test)
 TEST_TARGET=test
 # STATIC_LIBS - path to any static libs you need.  you may need to make a rule
@@ -81,7 +81,7 @@ COVERAGE_DIR=cov
 CC=g++
 FLAGS=-Wall -Wextra -pedantic
 INC=-I$(INCLUDE_DIR) -I$(SOURCE_DIR) $(addprefix -I,$(EXTRA_INCLUDES))
-CFLAGS=$(FLAGS) -std=c++03  -fPIC $(INC) -c
+CFLAGS=$(FLAGS) -std=c++98  -fPIC $(INC) -c
 LFLAGS=$(FLAGS)
 
 # --- BUILD CONFIGURATIONS: Feel free to get creative with these if you'd like.
