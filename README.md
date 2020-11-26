@@ -1,3 +1,6 @@
+## 编译WIN64可执行文件
+[iStyle_win64.exe](https://github.com/smbstore/istyle-verilog-formatter/releases/download/v1.23.1/iStyle.exe)
+
 # iStyle v1 #
 ## Fast and Free Automatic Formatter for Verilog Source Code ##
 ```
